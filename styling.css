@@ -1,0 +1,114 @@
+body{
+	background: url(images/drawing.jpg) center center fixed;
+	background-size: cover;
+	font-family: vorkon sans-serif;
+}
+.header{
+	width: 450px;
+	text-align: center;
+	margin: 10px auto;
+	height: 90px;
+	background-color: rgba(102, 140, 255,0.8);
+	color: white;
+	font-size: 4em;
+	line-height: 80px
+}
+
+.inputcontainer{
+	margin: 10px auto;
+	width: 300px;
+}
+
+#inputcolor{
+	text-align: center;
+	height: 32px;
+
+}
+
+#inksizecircle{
+	width: 3px;
+	height: 3px;
+	background-color: black;
+	margin: 0 auto;
+	border-radius: 100%;
+}
+#slider{
+	width: 200px;
+	margin: 10px auto;
+}
+
+
+#canvas1{
+	border: 1px solid blue;
+	height: 500px;
+	width: 600px;
+	margin: 0 auto;
+	
+}
+
+canvas{
+	background-color: white;
+	cursor: crosshair;
+	margin: 0 auto;
+}
+
+@media (max-width:768px){
+	#canvas1{
+	border: 1px solid blue;
+	height: 350px;
+	width: 400px;
+	margin: 0 auto;
+	
+}
+
+canvas{
+	background-color: white;
+	cursor: crosshair;
+	margin: 0 auto;
+	height: 350px;
+	width: 400px;
+}
+	#erasebtn{
+		margin-left: 50px;
+	}
+}
+
+.buttoninput{
+	width: 500px;
+	margin: 5px auto;
+	text-align: center;
+	
+	
+}
+.btn{
+	float: left;
+	width: 120px;
+	text-align: center;
+	color: white;
+	background-color: rgba(102, 140, 255,0.8);
+	margin: 10px;
+	height: 40px;
+	border-radius: 5px;
+	line-height: 2;
+	font-size: 20px;
+	box-shadow: 0 4px  rgba(102, 140, 255,0.3);
+	position: relative;
+  
+	
+}
+
+.btn:hover{
+	background-color: azure;
+	cursor: pointer;
+	color: rgb(102, 140, 255);
+}
+
+.btn:active{
+	top: 4px;
+}
+
+
+.erasemode{
+	background-color: orangered;
+	color: aliceblue;
+}
